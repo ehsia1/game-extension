@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "game-extension",
+  "version": "0.0.0.1",
+  "browser_action": {
+    "default_title": "Game Extension",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
